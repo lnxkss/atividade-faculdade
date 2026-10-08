@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CursoCode</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">CursoCode</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="#inicio">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cursos">Cursos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#inscricao">Inscrição</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            Mais
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#turmas">Turmas</a></li>
+            <li><a class="dropdown-item" href="#inscricao">Contato</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Buscar">
+        <button class="btn btn-outline-light" type="submit">
+          <i class="bi bi-search"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<header id="inicio" class="bg-primary text-white py-5">
+  <div class="container text-center py-4">
+    <h1 class="display-4 fw-bold">Aprenda Desenvolvimento Web</h1>
+    <p class="lead">Aprenda a criar sites usando tecnologias modernas.</p>
+    <a href="#cursos" class="btn btn-light btn-lg">Ver cursos</a>
+  </div>
+</header>
+
+<main class="container py-5">
+
+  <section id="cursos" class="mb-5">
+    <h2 class="text-center mb-4">Nossos cursos</h2>
+
+    <div class="row g-4">
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <i class="bi bi-filetype-html fs-1 text-primary"></i>
+            <h3 class="h5 mt-3">HTML</h3>
+            <p class="card-text">Aprenda a criar a estrutura de páginas web.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <i class="bi bi-palette fs-1 text-primary"></i>
+            <h3 class="h5 mt-3">CSS</h3>
+            <p class="card-text">Aprenda a organizar e estilizar páginas.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <i class="bi bi-filetype-js fs-1 text-primary"></i>
+            <h3 class="h5 mt-3">JavaScript</h3>
+            <p class="card-text">Crie interações e comportamentos para seus sites.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <i class="bi bi-bootstrap-fill fs-1 text-primary"></i>
+            <h3 class="h5 mt-3">Bootstrap</h3>
+            <p class="card-text">Monte interfaces responsivas usando o framework.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <i class="bi bi-github fs-1 text-primary"></i>
+            <h3 class="h5 mt-3">Git e GitHub</h3>
+            <p class="card-text">Aprenda a salvar e publicar seus projetos.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <i class="bi bi-code-slash fs-1 text-primary"></i>
+            <h3 class="h5 mt-3">Projeto Web</h3>
+            <p class="card-text">Junte os conhecimentos em um projeto completo.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="turmas" class="mb-5">
+    <h2 class="text-center mb-4">Turmas</h2>
+
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+          <tr>
+            <th>Turma</th>
+            <th>Dia</th>
+            <th>Horário</th>
+            <th>Modalidade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Turma 01</td>
+            <td>Segunda e quarta</td>
+            <td>19h às 21h</td>
+            <td>Presencial</td>
+          </tr>
+          <tr>
+            <td>Turma 02</td>
+            <td>Terça e quinta</td>
+            <td>19h às 21h</td>
+            <td>Online</td>
+          </tr>
+          <tr>
+            <td>Turma 03</td>
+            <td>Sábado</td>
+            <td>09h às 13h</td>
+            <td>Híbrida</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="inscricao" class="mb-5">
+    <h2 class="text-center mb-4">Inscreva-se</h2>
+
+    <form class="row g-3">
+      <div class="col-12 col-md-6">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" id="nome" class="form-control">
+      </div>
+
+      <div class="col-12 col-md-6">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" id="email" class="form-control">
+      </div>
+
+      <div class="col-12 col-md-6">
+        <label for="curso" class="form-label">Curso</label>
+        <select id="curso" class="form-select">
+          <option selected>Escolha um curso</option>
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JavaScript</option>
+          <option>Bootstrap</option>
+        </select>
+      </div>
+
+      <div class="col-12 col-md-6">
+        <label for="telefone" class="form-label">Telefone</label>
+        <div class="input-group">
+          <span class="input-group-text">+55</span>
+          <input type="tel" id="telefone" class="form-control" placeholder="(45) 99999-9999">
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="termos">
+          <label class="form-check-label" for="termos">
+            Aceito receber informações sobre o curso.
+          </label>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Enviar inscrição</button>
+      </div>
+    </form>
+  </section>
+
+</main>
+
+<footer class="bg-dark text-white py-4" data-bs-theme="dark">
+  <div class="container text-center">
+    <h2 class="h5">CursoCode</h2>
+    <p class="mb-2">Curso de Desenvolvimento Web</p>
+    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+    <a href="#" class="text-white me-3"><i class="bi bi-github"></i></a>
+    <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
